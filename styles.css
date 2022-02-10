@@ -11,13 +11,13 @@ body {
     padding-bottom: 200px;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 #header-img {
     height: 80px;
     border-radius: 10px;
-}
-
-nav {
-    display: block;
 }
 
 .nav-link {
@@ -29,4 +29,35 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+}
+
+#wanttobuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    gap: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#product-img {
+    height: 120px;
+}
+
+#foot {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 30px;
+    padding-top: 50px;
 }

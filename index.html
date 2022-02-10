@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>PPAP</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     
 
@@ -18,24 +20,83 @@
         <h1>Pen Pineapple Apple Pen</h1>
         
         <nav id="nav-bar">
-            <a href="" class="nav-link">test</a>
-            <a href="" class="nav-link">test</a>
-            <a href="" class="nav-link">test</a>
+            <a href="#header" class="nav-link">Product</a>
+            <a href="#wanttobuy" class="nav-link">Pricing</a>
+            <a href="#foot" class="nav-link">About</a>
         </nav>
 
     </div>
 
 
-    <!-- Middle -->
+    <!-- Product description -->
 
     <div id="middle" width="1280" height="720" controls>
 
-        <video width="320" height="240" controls>
+        <video id="video" width="320" height="240" controls>
             <source src="./video/ppap.mp4" type="video/mp4">
         </video> 
 
+        <p>
+            I have a pen, I have a apple<br>
+            Uh! Apple-pen!<br>
+        </p>
+        <p>
+            I have a pen, I have pineapple<br>
+            Uh! Pineapple-pen!<br>
+        </p>
+        <p>
+            Apple-pen, pineapple-pen<br>
+            Uh! Pen-pineapple-apple-pen<br>
+            Pen-pineapple-apple-pen<br>
+            Dance time!<br>
+        </p>
+        <p>
+            I have a pen, I have a pen<br>
+            Uh! Long pen!<br>
+        </p>
+        <p>
+            I have a apple, I have pineapple<br>
+            Uh! Apple-pineapple!<br>
+        </p>
+        <p>
+            Long pen, apple-pineapple,<br>
+            Uh! Pen-pineapple-apple-pen!<br>
+            Pen-pineapple-apple-pen!<br>
+        </p>
+
     </div>
 
+
+    <!-- Form -->
+
+    <div id="wanttobuy">
+
+        <h2>Do you want to buy this product?</h2>
+        <img id="product-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2Fd7b2dd85-9353-4195-ad81-48160ca16468_1.f0327fb96963e1adcb0bb62a02cfa0e2.jpeg&f=1&nofb=1">
+
+        <p>
+            If you want to buy this exclusive pen for 199.99$ please
+            write your email and we will get in contact with you.
+        </p>
+
+        <form id="form">
+
+            <label id="email">Email</label>
+            <input type="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+        
+            <input type="submit" id="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <div id="foot">
+        <img src="https://media0.giphy.com/media/11FQncIaxjSGmA/giphy.gif?cid=ecf05e4704vdwaupqo20vmv85ig5rq5lxydf3y4v5wumatns&rid=giphy.gif&ct=g"
+    </div>
 
 
 </body>
