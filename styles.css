@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    border: 0px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+#header-img {
+    height: 80px;
+    border-radius: 10px;
+}
+
+nav {
+    display: block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
